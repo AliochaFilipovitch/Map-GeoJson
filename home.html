@@ -37,6 +37,11 @@
    $.getJSON("nb_ae_juin_2018_points.geojson", function(data) {
    var geojsonLayer = new L.GeoJSON(data);	//New GeoJSON layer
    map.addLayer(geojsonLayer);	//Add layer to map	
+   });   
+
+   $.getJSON("RECAVO_POST_GSON_2.geojson", function(data) {
+   var geojsonLayer = new L.GeoJSON(data);  //New GeoJSON layer
+   map.addLayer(geojsonLayer);  //Add layer to map  
    });
     
     
